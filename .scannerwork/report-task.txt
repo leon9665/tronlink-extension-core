@@ -2,5 +2,5 @@ projectKey=tronlink-extension-core
 serverUrl=http://3.128.130.250:9000
 serverVersion=10.6.0.92116
 dashboardUrl=http://3.128.130.250:9000/dashboard?id=tronlink-extension-core
-ceTaskId=5d9d9374-9f77-410f-95be-dcdee9c6df2f
-ceTaskUrl=http://3.128.130.250:9000/api/ce/task?id=5d9d9374-9f77-410f-95be-dcdee9c6df2f
+ceTaskId=808eda37-700a-4aa5-9da1-61424ffc922f
+ceTaskUrl=http://3.128.130.250:9000/api/ce/task?id=808eda37-700a-4aa5-9da1-61424ffc922f
