@@ -59,7 +59,7 @@ specifiers:
   stream-browserify: 3.0.0
   stream-http: 3.2.0
   terser-webpack-plugin: 5.3.7
-  tronweb: 5.3.2
+  tronweb: file:tronweb-5.3.4.tgz
   ts-jest: 29.1.1
   typescript: 4.9.5
   url: 0.11.0
@@ -93,7 +93,7 @@ dependencies:
   querystring-es3: 0.2.1
   stream-browserify: 3.0.0
   stream-http: 3.2.0
-  tronweb: 5.3.2
+  tronweb: file:tronweb-5.3.4.tgz
   url: 0.11.0
   util: 0.12.5
 
@@ -6702,28 +6702,6 @@ packages:
     engines: {node: '>=0.6'}
     dev: true
 
-  /tronweb/5.3.2:
-    resolution: {integrity: sha512-iPcIjMCxb6H7FXMntAj47F3L+7jSideyQ7ZOvRj9MeZBh46SHevMrDDR57HzakUa/tT8VvlPFHtqFK4hzTLkXw==}
-    dependencies:
-      '@babel/runtime': 7.26.10
-      '@ethersproject/abi': 5.7.0
-      '@tronweb3/google-protobuf': 3.21.2
-      axios: 1.8.2
-      bignumber.js: 9.1.2
-      ethereum-cryptography: 2.1.3
-      ethers: 6.11.1
-      eventemitter3: 3.1.2
-      injectpromise: 1.0.0
-      lodash: 4.17.21
-      querystring-es3: 0.2.1
-      semver: 5.7.2
-      validator: 13.11.0
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - utf-8-validate
-    dev: false
-
   /ts-jest/29.1.1_w43glwdy23o73kjahfmqqbiiay:
     resolution: {integrity: sha512-D6xjnnbP17cC85nliwGiL+tpoKN0StpgE0TeOjXQTU6MVCfsB4v7aW05CgQ/1OywGb0x/oy9hHFnN+sczTiRaA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -7221,3 +7199,27 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
+
+  file:tronweb-5.3.4.tgz:
+    resolution: {integrity: sha512-uB019ewhyVu3YGx4ZJ62jtuVf0CZFd24o0qipxY2tfXscNLhwoXz947O7DPNzb2+3Xa9Lvavw4kUxAZ7w3CnDg==, tarball: file:tronweb-5.3.4.tgz}
+    name: tronweb
+    version: 5.3.4
+    dependencies:
+      '@babel/runtime': 7.26.10
+      '@ethersproject/abi': 5.7.0
+      '@tronweb3/google-protobuf': 3.21.2
+      axios: 1.8.2
+      bignumber.js: 9.1.2
+      ethereum-cryptography: 2.1.3
+      ethers: 6.11.1
+      eventemitter3: 3.1.2
+      injectpromise: 1.0.0
+      lodash: 4.17.21
+      querystring-es3: 0.2.1
+      semver: 5.7.2
+      validator: 13.11.0
+    transitivePeerDependencies:
+      - bufferutil
+      - debug
+      - utf-8-validate
+    dev: false
