@@ -6703,7 +6703,7 @@ packages:
     dev: true
 
   /tronweb/5.3.4:
-    resolution: {integrity: sha512-uB019ewhyVu3YGx4ZJ62jtuVf0CZFd24o0qipxY2tfXscNLhwoXz947O7DPNzb2+3Xa9Lvavw4kUxAZ7w3CnDg==}
+    resolution: {integrity: sha512-79HEnwSAqyCKrT7QB8dkxad0RqYx3dSulEg4dfBQQVwzhRr+AqdE1yz+nfTUpftu54RejqaHjqz40ZzWNy077w==}
     dependencies:
       '@babel/runtime': 7.26.10
       '@ethersproject/abi': 5.7.0
